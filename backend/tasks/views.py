@@ -10,9 +10,15 @@ def analyze_tasks(request):
     tasks = request.data.get("tasks", [])
     strategy = request.data.get("strategy", "smart")
 
+    if not isinstance(tasks, list):
+        return Response({"error": "Tasks should be a list"}, status=400)
+
     results = []
 
     for idx, t in enumerate(tasks):
+        if not isinstance(t, dict):
+            return Response({"error": f"Invalid task format at index {idx}"}, status=400)
+
         t["id"] = idx  # temporary ID for dependencies
 
         # Validate input
@@ -44,6 +50,8 @@ def suggest_tasks(request):
 
     results = []
     for idx, t in enumerate(tasks):
+        if not isinstance(t, dict):
+            continue
         t["id"] = idx
         score, explanation = calculate_score(t, tasks, "smart")
         t["score"] = score
