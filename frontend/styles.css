@@ -1,0 +1,21 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+  }
+  
+  .task {
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .high { background-color: #ffb3b3; }
+  .medium { background-color: #ffe0b3; }
+  .low { background-color: #b3ffb3; }
+  
