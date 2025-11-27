@@ -49,3 +49,20 @@ Each task also returns an explanation object showing individual factor contribut
 - Used **JSONField** for dependencies to handle dynamic lists.
 - Handled invalid/missing data gracefully in scoring.
 - Strategy weights are configurable for different user preferences.
+
+## Time Breakdown
+
+- Backend models & serializer: 30 min  
+- Scoring algorithm: 1 hr  
+- API views: 45 min  
+- Unit tests: 30 min  
+- Frontend development: 1 hr  
+- Bug fixing & integration: 1 hr
+
+## Future Improvements
+
+- Dependency graph visualization to detect circular dependencies.
+- Date intelligence: skip weekends/holidays.
+- Learning system: adjust algorithm based on user feedback.
+- More extensive unit tests for edge cases.
+
