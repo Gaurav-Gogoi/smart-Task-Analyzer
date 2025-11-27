@@ -14,6 +14,7 @@ django, rest_framework,cors-headers
 
 5. Open `frontend/index.html` in browser for the UI.
 
+6. Sample data has been provided copy and paste in frontend to check working 
 
 ## Priority Scoring Algorithm
 

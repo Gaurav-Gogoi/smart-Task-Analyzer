@@ -1,0 +1,24 @@
+
+[
+    {
+        "title": "Fix login bug",
+        "due_date": "2025-11-30",
+        "estimated_hours": 3,
+        "importance": 8,
+        "dependencies": []
+    },
+    {
+        "title": "Update docs",
+        "due_date": "2025-12-05",
+        "estimated_hours": 2,
+        "importance": 5,
+        "dependencies": [0]
+    },
+    {
+        "title": "Deploy feature",
+        "due_date": "2025-11-28",
+        "estimated_hours": 5,
+        "importance": 9,
+        "dependencies": []
+    }
+]
