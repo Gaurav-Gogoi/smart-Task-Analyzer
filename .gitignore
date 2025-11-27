@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+.myenv/
+.venv/
+myenv
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+
+# Static
+staticfiles/
+staticfiles_build/
+
+# VSCode
+.vscode/
+
+# Mac / Linux trash
+.DS_Store
+.idea/
+.swp
+
+# Environment variables
+.env
+*.env
+
+# Migrations (optional, but usually keep them)
+# **If you want to track migrations, delete this!**
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# PyCharm
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.so
+
+# pytest
+.cache/
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Build
+build/
+dist/
